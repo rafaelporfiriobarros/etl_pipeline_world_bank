@@ -1,1 +1,13 @@
-.venv
+# Ambiente virtual Python
+.venv/
+
+# Pasta de outputs do ETL
+data/final/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos de logs
+*.log

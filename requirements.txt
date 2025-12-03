@@ -1,0 +1,16 @@
+pandas
+numpy
+requests
+beautifulsoup4
+lxml
+pycountry
+python-dotenv
+SQLAlchemy
+chardet
+pytest
+
+# drivers opcionais
+psycopg2-binary
+pymysql
+tabulate
+python-dateutil
