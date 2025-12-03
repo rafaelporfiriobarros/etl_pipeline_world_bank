@@ -1,5 +1,8 @@
 # Projeto ETL – Integração e Preparação dos Dados do Banco Mundial
 
+![World Bank Group](assets/world-bank-image.png)
+
+
 Este projeto tem como objetivo desenvolver um pipeline ETL completo para integrar, padronizar e armazenar dados provenientes do Banco Mundial, combinando indicadores socioeconômicos e informações históricas de projetos financiados pela instituição desde 1947.
 
 ## Fontes de Dados
