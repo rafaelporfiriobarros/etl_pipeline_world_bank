@@ -21,6 +21,7 @@ Dataset composto por informações detalhadas sobre empréstimos, valores financ
 
 ## Escopo do Pipeline ETL
 
+
 O fluxo de dados do projeto contempla três etapas principais:
 
 **1. Extração (Extract)**
@@ -96,3 +97,53 @@ Ao final do projeto, será desenvolvido um módulo Python unificado, responsáve
 Unificar os conjuntos de dados do Banco Mundial em uma tabela única e limpa, adequada para análises estatísticas e desenvolvimento de modelos de Machine Learning — incluindo, por exemplo, **a previsão dos custos totais de projetos financiados.**
 
 O projeto demonstra, de ponta a ponta, como construir um pipeline ETL robusto em Engenharia de Dados, lidando com desafios reais como qualidade, padronização, integração e automação de dados.
+
+# Como rodar o projeto
+
+1. Clone o repositório
+
+```bash
+git clone https://github.com/seuusuario/etl_pipeline_world_bank.git
+cd etl_pipeline_world_bank
+```
+
+2. Crie o ambiente virtual
+
+Linux/MacOS
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+
+Windows
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+3. Instale as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Rode o ETL
+
+```bash
+python run_etl.py
+```
+
+# Como Rodar os Testes
+
+Este projeto utiliza pytest.
+
+Executar todos os testes:
+
+```bash
+pytest -v
+```
+
+---
+
+
